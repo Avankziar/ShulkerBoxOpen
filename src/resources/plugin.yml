@@ -1,0 +1,8 @@
+name: ShulkerBoxOpen
+main: me.avankziar.sbo.spigot.SBO
+version: 1
+author: Avankziar
+api-version: 1.21
+description: A SkulkerBox Opener
+website: TBA
+prefix: SBO

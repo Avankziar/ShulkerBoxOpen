@@ -1,0 +1,14 @@
+Update alle Plugin mit folgenden Methoden:
+- Main.class >> ModifierConsumer, setupIFHModifier(), getServername(), ValueEntryConsumer,
+- YamlHandler.class >> File MVELang für alle Bypass Perm
+- BaseConstructor.class >> boolean putUpCmdPermToValueEntrySystem und strucktur änderung.
+- Bypass.class with Permission.enum & Counter.enum
+- YamlManager.class >> commandsInput() um boolean putUpCmdPermToValueEntrySystem, String dnGerman, String dnEnglish, String exGerman, String exEnglish
+  						erweitern. Gleiches für argumentInput()
+  					>> initModifierValueEntryLanguage()
+  					>> config for EnableMechanis.ValueEntry & Modifier
+- ChatApi.class >> hoverEvent(String text, ...) ändern. Damit in Hover Hex angezeit werden kann.
+                >> tctl(), wegen der neuen möglichkeit einfach String mit "new Line" hinzuzufügen. 
+- ModifierValueEntry.class
+- ConfigHandler.class
+- MatchApi.class >> isBoolean, getBoolean 
