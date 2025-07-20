@@ -356,7 +356,12 @@ public class OpenShulkerListener implements Listener
 				{
 				    player.closeInventory();
 				}
-				if(tick % 5 == 0)
+				if(tick != 0 && tick % 15 == 0)
+				{
+					cancel();
+					return;
+				}
+				if(tick != 0 && tick % 5 == 0)
 				{
 					BlockState state = meta.getBlockState();
 			        if (!(state instanceof ShulkerBox shulker)) return;
